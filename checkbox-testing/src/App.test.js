@@ -20,7 +20,7 @@ test("checkbox flow", () => {
 
   fireEvent.click(checkboxElement);
 
-  // re-enable after checked twice
+  // re-enable after click checkbox again
   expect(buttonElement).toBeEnabled();
   expect(checkboxElement).not.toBeChecked();
 });
