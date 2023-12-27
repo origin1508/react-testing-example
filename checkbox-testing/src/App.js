@@ -21,8 +21,14 @@ function App() {
       >
         change to {nextColor}
       </button>
-      <input type="checkbox" id="disable-button" onChange={handleCheck}></input>
-      <label htmlFor="disable-button">disable button</label>
+      <div>
+        <input
+          type="checkbox"
+          id="disable-button"
+          onChange={handleCheck}
+        ></input>
+        <label htmlFor="disable-button">disable button</label>
+      </div>
     </div>
   );
 }
